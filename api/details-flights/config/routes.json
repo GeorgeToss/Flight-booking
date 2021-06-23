@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/details-flights",
+      "handler": "details-flights.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/details-flights/count",
+      "handler": "details-flights.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/details-flights/:id",
+      "handler": "details-flights.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/details-flights",
+      "handler": "details-flights.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/details-flights/:id",
+      "handler": "details-flights.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/details-flights/:id",
+      "handler": "details-flights.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

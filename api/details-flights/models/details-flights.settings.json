@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "details_flights",
+  "info": {
+    "name": "detailsFlights",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "details": {
+      "type": "richtext",
+      "required": true
+    },
+    "idFlight": {
+      "unique": true,
+      "model": "flight"
+    }
+  }
+}
